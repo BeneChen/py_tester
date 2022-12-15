@@ -1,0 +1,462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module tester</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>tester</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/bene/WS/python_ws/%E7%AC%94%E8%AE%B0/script/tester.py">/Users/bene/WS/python_ws/笔记/script/tester.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="datetime.html">datetime</a><br>
+</td><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#Exception">builtins.Exception</a>(<a href="builtins.html#BaseException">builtins.BaseException</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="tester.html#MissCall">MissCall</a>
+</font></dt><dt><font face="helvetica, arial"><a href="tester.html#NoSuchMessageError">NoSuchMessageError</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="tester.html#Message">Message</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="tester.html#STR_Message">STR_Message</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="tester.html#CTR_Message">CTR_Message</a>
+</font></dt><dt><font face="helvetica, arial"><a href="tester.html#TIM_Message">TIM_Message</a>
+</font></dt></dl>
+</dd>
+</dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="tester.html#MessagePool">MessagePool</a>
+</font></dt><dt><font face="helvetica, arial"><a href="tester.html#Tester">Tester</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="CTR_Message">class <strong>CTR_Message</strong></a>(<a href="tester.html#STR_Message">STR_Message</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#CTR_Message">CTR_Message</a>(data,&nbsp;test_string=None)&nbsp;-&amp;gt;&nbsp;None<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="tester.html#CTR_Message">CTR_Message</a></dd>
+<dd><a href="tester.html#STR_Message">STR_Message</a></dd>
+<dd><a href="tester.html#Message">Message</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="CTR_Message-__init__"><strong>__init__</strong></a>(self, data, test_string=None) -&gt; None</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="CTR_Message-__str__"><strong>__str__</strong></a>(self) -&gt; str</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="CTR_Message-end"><strong>end</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CTR_Message-get_compound_data"><strong>get_compound_data</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CTR_Message-refresh"><strong>refresh</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CTR_Message-start"><strong>start</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CTR_Message-update"><strong>update</strong></a>(self)</dt></dl>
+
+<hr>
+Methods inherited from <a href="tester.html#Message">Message</a>:<br>
+<dl><dt><a name="CTR_Message-get_data"><strong>get_data</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CTR_Message-get_file_line"><strong>get_file_line</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CTR_Message-get_file_name"><strong>get_file_name</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CTR_Message-get_message"><strong>get_message</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="CTR_Message-update_message"><strong>update_message</strong></a>(self, **kwgars)</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="tester.html#Message">Message</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Message">class <strong>Message</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Message">Message</a>(data)&nbsp;-&amp;gt;&nbsp;None<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Message-__init__"><strong>__init__</strong></a>(self, data) -&gt; None</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="Message-__str__"><strong>__str__</strong></a>(self) -&gt; str</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="Message-end"><strong>end</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Message-get_compound_data"><strong>get_compound_data</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Message-get_data"><strong>get_data</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Message-get_file_line"><strong>get_file_line</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Message-get_file_name"><strong>get_file_name</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Message-get_message"><strong>get_message</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Message-refresh"><strong>refresh</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Message-start"><strong>start</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Message-update"><strong>update</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Message-update_message"><strong>update_message</strong></a>(self, **kwgars)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="MessagePool">class <strong>MessagePool</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="MessagePool-get_message"><strong>get_message</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="MessagePool-new_message"><strong>new_message</strong></a>(self, name, data, description, index='s')</dt><dd><tt>:param&nbsp;string&nbsp;name:&nbsp;name&nbsp;of&nbsp;this&nbsp;message<br>
+:param&nbsp;string&nbsp;index:&nbsp;type&nbsp;of&nbsp;the&nbsp;message&nbsp;using&nbsp;currently&nbsp;we&nbsp;have&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index&nbsp;[s|t|c],<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s:&nbsp;string&nbsp;message,&nbsp;contain&nbsp;only&nbsp;string&nbsp;message<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t:&nbsp;timer&nbsp;message,&nbsp;contain&nbsp;a&nbsp;timer<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c:&nbsp;counter&nbsp;message,&nbsp;contain&nbsp;a&nbsp;counter<br>
+:param&nbsp;data&nbsp;index:&nbsp;that&nbsp;store&nbsp;in&nbsp;the&nbsp;message</tt></dd></dl>
+
+<dl><dt><a name="MessagePool-print_data"><strong>print_data</strong></a>(self, name)</dt><dd><tt>print&nbsp;only&nbsp;data<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;name&nbsp;(string):&nbsp;name&nbsp;of&nbsp;the&nbsp;message<br>
+&nbsp;<br>
+Raises:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#NoSuchMessageError">NoSuchMessageError</a>:&nbsp;name&nbsp;of&nbsp;the&nbsp;message&nbsp;is&nbsp;not&nbsp;correct</tt></dd></dl>
+
+<dl><dt><a name="MessagePool-print_message"><strong>print_message</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="MessagePool-set_printing_method"><strong>set_printing_method</strong></a>(self, name, function)</dt></dl>
+
+<dl><dt><a name="MessagePool-timer"><strong>timer</strong></a>(e)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="MissCall">class <strong>MissCall</strong></a>(<a href="builtins.html#Exception">builtins.Exception</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#MissCall">MissCall</a>(message='missed&nbsp;called')<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="tester.html#MissCall">MissCall</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="MissCall-__init__"><strong>__init__</strong></a>(self, message='missed called')</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="MissCall-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#object">object</a>.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="MissCall-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="MissCall-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="MissCall-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="MissCall-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="MissCall-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="MissCall-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="MissCall-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="MissCall-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#MissCall-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="NoSuchMessageError">class <strong>NoSuchMessageError</strong></a>(<a href="builtins.html#Exception">builtins.Exception</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#NoSuchMessageError">NoSuchMessageError</a>(name,&nbsp;message='no&nbsp;such&nbsp;<a href="#Message">Message</a>&nbsp;named:&nbsp;')<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="tester.html#NoSuchMessageError">NoSuchMessageError</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="NoSuchMessageError-__init__"><strong>__init__</strong></a>(self, name, message='no such Message named: ')</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="NoSuchMessageError-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;<a href="builtins.html#object">object</a>.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="NoSuchMessageError-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="NoSuchMessageError-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="NoSuchMessageError-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="NoSuchMessageError-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="NoSuchMessageError-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="NoSuchMessageError-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="NoSuchMessageError-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="NoSuchMessageError-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#NoSuchMessageError-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="STR_Message">class <strong>STR_Message</strong></a>(<a href="tester.html#Message">Message</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#STR_Message">STR_Message</a>(data,&nbsp;description='this&nbsp;is&nbsp;a&nbsp;test&nbsp;message')&nbsp;-&amp;gt;&nbsp;None<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="tester.html#STR_Message">STR_Message</a></dd>
+<dd><a href="tester.html#Message">Message</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="STR_Message-__init__"><strong>__init__</strong></a>(self, data, description='this is a test message') -&gt; None</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="STR_Message-__str__"><strong>__str__</strong></a>(self) -&gt; str</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="STR_Message-get_compound_data"><strong>get_compound_data</strong></a>(self)</dt></dl>
+
+<hr>
+Methods inherited from <a href="tester.html#Message">Message</a>:<br>
+<dl><dt><a name="STR_Message-end"><strong>end</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="STR_Message-get_data"><strong>get_data</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="STR_Message-get_file_line"><strong>get_file_line</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="STR_Message-get_file_name"><strong>get_file_name</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="STR_Message-get_message"><strong>get_message</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="STR_Message-refresh"><strong>refresh</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="STR_Message-start"><strong>start</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="STR_Message-update"><strong>update</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="STR_Message-update_message"><strong>update_message</strong></a>(self, **kwgars)</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="tester.html#Message">Message</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="TIM_Message">class <strong>TIM_Message</strong></a>(<a href="tester.html#STR_Message">STR_Message</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#TIM_Message">TIM_Message</a>(data,&nbsp;test_string=None)&nbsp;-&amp;gt;&nbsp;None<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="tester.html#TIM_Message">TIM_Message</a></dd>
+<dd><a href="tester.html#STR_Message">STR_Message</a></dd>
+<dd><a href="tester.html#Message">Message</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="TIM_Message-__init__"><strong>__init__</strong></a>(self, data, test_string=None) -&gt; None</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="TIM_Message-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="TIM_Message-end"><strong>end</strong></a>(self, ignore_warning=False)</dt><dd><tt>this&nbsp;is&nbsp;a&nbsp;funciton&nbsp;called&nbsp;when&nbsp;timer&nbsp;end,&nbsp;<br>
+:param&nbsp;bool&nbsp;ignore_warning:&nbsp;a&nbsp;indicator&nbsp;of&nbsp;ignorance&nbsp;of&nbsp;the&nbsp;warning<br>
+:param&nbsp;list[int]&nbsp;left_bc:&nbsp;left&nbsp;boundary&nbsp;condition<br>
+:param&nbsp;list[int]&nbsp;right_bc:&nbsp;left&nbsp;boundary&nbsp;condition</tt></dd></dl>
+
+<dl><dt><a name="TIM_Message-get_compound_data"><strong>get_compound_data</strong></a>(self)</dt><dd><tt>#&nbsp;def&nbsp;move(self,&nbsp;ignore_warning&nbsp;=&nbsp;)</tt></dd></dl>
+
+<dl><dt><a name="TIM_Message-refresh"><strong>refresh</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="TIM_Message-start"><strong>start</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="TIM_Message-update"><strong>update</strong></a>(self)</dt></dl>
+
+<hr>
+Methods inherited from <a href="tester.html#Message">Message</a>:<br>
+<dl><dt><a name="TIM_Message-get_data"><strong>get_data</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="TIM_Message-get_file_line"><strong>get_file_line</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="TIM_Message-get_file_name"><strong>get_file_name</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="TIM_Message-get_message"><strong>get_message</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="TIM_Message-update_message"><strong>update_message</strong></a>(self, **kwgars)</dt></dl>
+
+<hr>
+Data descriptors inherited from <a href="tester.html#Message">Message</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Tester">class <strong>Tester</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>mp</strong> = &lt;tester.MessagePool object&gt;</dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-process_time"><strong>process_time</strong></a>(...)</dt><dd><tt><a href="#-process_time">process_time</a>()&nbsp;-&gt;&nbsp;float<br>
+&nbsp;<br>
+Process&nbsp;time&nbsp;for&nbsp;profiling:&nbsp;sum&nbsp;of&nbsp;the&nbsp;kernel&nbsp;and&nbsp;user-space&nbsp;CPU&nbsp;time.</tt></dd></dl>
+</td></tr></table>
+</body></html>
